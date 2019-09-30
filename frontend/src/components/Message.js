@@ -1,11 +1,11 @@
 import React from 'react'
+import { Toast } from 'react-bootstrap'
 import {
   MessageBody,
   MessageContainer,
   MessageDate,
   StyledToast
 } from './Styles'
-import { Toast } from 'react-bootstrap'
 
 export default ({ name, message, time, incoming, textDarkGray, highlight }) => (
   <MessageContainer incoming={incoming} textDarkGray={textDarkGray}>

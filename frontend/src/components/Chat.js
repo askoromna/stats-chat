@@ -1,10 +1,9 @@
-import React, { Component } from 'react'
-import MessageInput from './MessageInput'
-import Message from './Message'
-import { Col, Form } from 'react-bootstrap'
-import Row from 'react-bootstrap/Row'
-import { StyledInput } from './Styles'
 import { takeRight, sortBy, reverse } from 'lodash'
+import React, { Component } from 'react'
+import { Col, Form, Row } from 'react-bootstrap'
+import Message from './Message'
+import MessageInput from './MessageInput'
+import { StyledInput } from './Styles'
 
 const URL = 'ws://localhost:3030'
 
